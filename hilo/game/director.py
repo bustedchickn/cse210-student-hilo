@@ -11,9 +11,9 @@ class director():
         beginning_score = 300
         score = beginning_score
 
-    def comparision(self, val1, val2, guess):
+    def comparision(self, card1, card2, guess):
         global score
-        if (val1<val2 and guess == "h" or val1>val2 and not guess == "l"):
+        if (card1<card2 and guess == "h" or card1>card2 and not guess == "l"):
             score = score + 100
             return score
         else:
