@@ -1,5 +1,8 @@
 class PLAYER:
 
+    def __init__(self):
+        pass
+
     def choose_hilo(self):
         """This function asks the 
         player to choose hi or lo"""

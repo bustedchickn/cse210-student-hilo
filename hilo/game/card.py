@@ -14,6 +14,5 @@ class Card:
 
         return self.card_value
 
-card = Card()
-print(card.possible_value())
+
 
