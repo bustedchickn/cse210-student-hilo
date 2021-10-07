@@ -1,6 +1,9 @@
 class PLAYER:
 
-    def choose_hilo():
+    def __init__(self):
+        pass
+
+    def choose_hilo(self):
         """This function asks the 
         player to choose hi or lo"""
 
@@ -21,7 +24,7 @@ class PLAYER:
             else:
                 print("That input is not vaild. Try again.")
 
-    def play_again():
+    def play_again(self):
         """This function asks if 
         the player wants to play again."""
 
