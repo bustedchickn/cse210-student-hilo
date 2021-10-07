@@ -36,3 +36,4 @@ root                    (project root folder)
 ## Authors
 ---
 * TODO: Add your names and emails here
+Talmage Kay (kay20005@byui.edu)
