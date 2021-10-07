@@ -1,5 +1,8 @@
 from game.player import PLAYER
 from game.card import Card
+cards = Card()
+player = PLAYER()
+
 class director():
     
     global score
@@ -18,14 +21,14 @@ class director():
             return score
     
     def display(self):
-        val1 = Card.possible_value()
-        val2 = Card.possible_value()
+        val1 = cards.possible_value()
+        val2 = cards.possible_value()
         print(f"The card is {val1}")
-        hilo = PLAYER.choose_hilo()
-        director.comparision(val1, val2, hilo)
+        hilo = player.choose_hilo()
+        self.comparision(val1, val2, hilo)
         print(f"The next card was {val2}")
         print(f"Your score is: {score}")
-        return PLAYER.play_again()
+        return player.play_again()
         
         
     
