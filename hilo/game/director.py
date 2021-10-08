@@ -35,8 +35,10 @@ class director():
 
     
     def display(self):
+
         val1 = cards.possible_value()
         val2 = cards.possible_value()
+        #if cards are a tie, reshuffle second card
         if (val1 == val2):
             val2 = cards.possible_value()
         print(f"The card is {val1}")
